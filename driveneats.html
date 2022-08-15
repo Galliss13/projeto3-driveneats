@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="pt-BR">
     <head>
         <meta charset="UTF-8">
@@ -27,45 +28,50 @@
                 <div class="chamada">
                     <h3>Primeiro, o seu prato</h3>
                 </div>
-                <div class="opcoes">
-                    <div class="item">
+                <div class="opcoes-pratos">
+                    <div onclick="prato_selecionado(this)" class="item">
                         <div class="conteudo-do-item">
                             <img src="imagens-driveneats\contra-file-eats.JPG">
                             <h4>Contra filé grelhado</h4>
                             <p>acompanha batata-frita, arroz e cebola</p>
                             <h5>R$35,90</h5>
+                            <ion-icon name="checkmark-circle"></ion-icon>
                         </div>
                     </div>
-                    <div class="item">
+                    <div onclick="prato_selecionado(this)" class="item">
                         <div class="conteudo-do-item">
                             <img src="imagens-driveneats\coxa-de-frango-assada-eats.JPG">
-                            <h4>Coxa de frango assada</h4>
+                            <h4>Coxa de frango</h4>
                             <p>batata cozida, arroz</p>
                             <h5>R$28,90</h5>
+                            <ion-icon name="checkmark-circle"></ion-icon>
                         </div>
                     </div>
-                    <div class="item">
+                    <div onclick="prato_selecionado(this)" class="item">
                         <div class="conteudo-do-item">
                             <img src="imagens-driveneats\cuzcuz-eats.JPG">
                             <h4>Cuzcuz paulista</h4>
                             <p>delicioso cuzcuz caseiro</p>
                             <h5>R$24,90</h5>
+                            <ion-icon name="checkmark-circle"></ion-icon>
                         </div>
                     </div>
-                    <div class="item">
+                    <div onclick="prato_selecionado(this)" class="item">
                         <div class="conteudo-do-item">
                             <img src="imagens-driveneats\feijoada-eats.JPG">
-                            <h4>Feijoada típica da casa</h4>
+                            <h4>Feijoada típica</h4>
                             <p>Feijoada maravilhosa</p>
                             <h5>R$65,90</h5>
+                            <ion-icon name="checkmark-circle"></ion-icon>
                         </div>
                     </div>
-                    <div class="item">
+                    <div onclick="prato_selecionado(this)" class="item">
                         <div class="conteudo-do-item">
                             <img src="imagens-driveneats\liguiça-toscana-eats.JPG">
                             <h4>Linguiça toscana</h4>
                             <p>acompanha arroz, batata-frita e feijão</p>
                             <h5>R$19,90</h5>
+                            <ion-icon name="checkmark-circle"></ion-icon>
                         </div>
                     </div>
                 </div>
@@ -74,45 +80,60 @@
                 <div class="chamada">
                     <h3>Agora, sua bebida</h3>
                 </div>
-                <div class="opcoes">
-                    <div class="item">
+                <div class="opcoes-bebidas">
+                    <div onclick="bebida_selecionada(this)" class="item">
                         <div class="conteudo-do-item">
                             <img src="imagens-driveneats\agua-mineral-eats.JPG">
                             <h4>Água mineral</h4>
                             <p>500ml</p>
                             <h5>R$3,90</h5>
+                            <div class="icone-selecionado escondido">
+                                <ion-icon name="checkmark-circle"></ion-icon>
+                            </div>
                         </div>
                     </div>
-                    <div class="item">
+                    <div onclick="bebida_selecionada(this)" class="item">
                         <div class="conteudo-do-item">
                             <img src="imagens-driveneats\coquinha-eats.JPG">
                             <h4>Coquinha gelada</h4>
                             <p>Lata 350ml</p>
                             <h5>R$4,90</h5>
+                            <div class="icone-selecionado escondido">
+                                <ion-icon name="checkmark-circle"></ion-icon>
+                            </div>
                         </div>
                     </div>
-                    <div class="item">
+                    <div onclick="bebida_selecionada(this)" class="item">
                         <div class="conteudo-do-item">
                             <img src="imagens-driveneats\pepsi-eats.JPG">
                             <h4>Pepsinha gelada</h4>
                             <p>Lata 350ml</p>
                             <h5>R$4,89</h5>
+                            <div class="icone-selecionado escondido">
+                                <ion-icon name="checkmark-circle"></ion-icon>
+                            </div>
                         </div>
                     </div>
-                    <div class="item">
+                    <div onclick="bebida_selecionada(this)" class="item">
                         <div class="conteudo-do-item">
                             <img src="imagens-driveneats\redbull-eats.JPG">
                             <h4>Redbull</h4>
                             <p>Lata 250ml</p>
                             <h5>R$8,90</h5>
+                            <div class="icone-selecionado escondido">
+                                <ion-icon name="checkmark-circle"></ion-icon>
+                            </div>
                         </div>
                     </div>
-                    <div class="item">
+                    <div onclick="bebida_selecionada(this)" class="item">
                         <div class="conteudo-do-item">
                             <img src="imagens-driveneats\toddynho-eats.JPG">
                             <h4>Toddynho</h4>
                             <p>200 ml</p>
                             <h5>R$2,90</h5>
+                            <div class="icone-selecionado escondido">
+                                <ion-icon name="checkmark-circle"></ion-icon>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -121,56 +142,75 @@
                 <div class="chamada">
                     <h3>Por fim, sua sobremesa</h3>
                 </div>
-                <div class="opcoes">
-                    <div class="item">
+                <div class="opcoes-sobremesas">
+                    <div onclick="sobremesa_selecionada(this)" class="item">
                         <div class="conteudo-do-item">
                             <img src="imagens-driveneats\bolo-ninho-chocolate-eats.JPG">
                             <h4>Bolo de ninho e chocolate</h4>
                             <p>300g</p>
                             <h5>R$7,90</h5>
+                            <div class="icone-selecionado escondido">
+                                <ion-icon name="checkmark-circle"></ion-icon>
+                            </div>
                         </div>
                     </div>
-                    <div class="item">
+                    <div onclick="sobremesa_selecionada(this)" class="item">
                         <div class="conteudo-do-item">
                             <img src="imagens-driveneats\mini-quindim-eats.JPG">
                             <h4>Mini quindim</h4>
                             <p>200g</p>
                             <h5>R$4,90</h5>
+                            <div class="icone-selecionado escondido">
+                                <ion-icon name="checkmark-circle"></ion-icon>
+                            </div>
                         </div>
                     </div>
-                    <div class="item">
+                    <div onclick="sobremesa_selecionada(this)" class="item">
                         <div class="conteudo-do-item">
                             <img src="imagens-driveneats\mousse-maracuja-eats.JPG">
                             <h4>Mousse de maracujá</h4>
                             <p>300g</p>
                             <h5>R$8,90</h5>
+                            <div class="icone-selecionado escondido">
+                                <ion-icon name="checkmark-circle"></ion-icon>
+                            </div>
                         </div>
                     </div>
-                    <div class="item">
+                    <div onclick="sobremesa_selecionada(this)" class="item">
                         <div class="conteudo-do-item">
                             <img src="imagens-driveneats\pudim-eats.JPG">
                             <h4>Pudim</h4>
                             <p>200g</p>
                             <h5>R$6,90</h5>
+                            <div class="icone-selecionado escondido">
+                                <ion-icon name="checkmark-circle"></ion-icon>
+                            </div>
                         </div>
                     </div>
-                    <div class="item">
+                    <div onclick="sobremesa_selecionada(this)" class="item">
                         <div class="conteudo-do-item">
                             <img src="imagens-driveneats\suflair-eats.JPG">
                             <h4>Suflair</h4>
                             <p>50g</p>
                             <h5>R$2,90</h5>
+                            <div class="icone-selecionado escondido">
+                                <ion-icon name="checkmark-circle"></ion-icon>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
         <div class="fechamento-de-pedido">
-            <div class="div-botao">
-                <div>
-                    <p>Selecione os 3 itens para fechar pedido</p>
+            <button>
+                <div class="div-botao">
+                    <div>
+                        <p>Selecione os 3 itens para fechar pedido</p>
+                    </div>
                 </div>
-            </div>
+            </button>
         </div>
+        <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+        <script src="driveneats.js"></script>
     </body>
 </html>

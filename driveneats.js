@@ -25,3 +25,14 @@ function sobremesa_selecionada(selecao) {
   botao()
 }
 
+function botao() {
+  if (document.querySelector(".opcoes-pratos .seleciona") && 
+  document.querySelector(".opcoes-bebidas .seleciona") && 
+  document.querySelector(".opcoes-sobremesas .seleciona") !== null) {
+    const desligarbotao = document.querySelector(".div-botao");
+    desligarbotao.classList.remove("div-botao");
+    desligarbotao.classList.add("novo-botao")
+    const elemento = document.querySelector(".muda-texto");
+    elemento.innerHTML = "Fechar pedido";
+  }
+}

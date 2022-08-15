@@ -152,7 +152,27 @@ h5 {
     justify-content: center;
 }
 
+.novo-botao {
+    width: 364px;
+    height: 61px;
+    background-color: #32B72F;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .div-botao p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: 0.018em;
+    color: #FFFFFF;
+    width: 200px;
+}
+
+.novo-botao p {
     font-weight: 400;
     font-size: 20px;
     line-height: 23px;
@@ -182,4 +202,8 @@ ion-icon {
     position: absolute;
     right: 0;
     bottom: 0;
+}
+
+.esconde {
+    display: none;
 }

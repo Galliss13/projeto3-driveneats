@@ -32,45 +32,45 @@
                     <div onclick="prato_selecionado(this)" class="item">
                         <div class="conteudo-do-item">
                             <img src="imagens-driveneats\contra-file-eats.JPG">
-                            <h4>Contra filé grelhado</h4>
+                            <h4 class="prato">Contra filé grelhado</h4>
                             <p>acompanha batata-frita, arroz e cebola</p>
-                            <h5>R$35,90</h5>
+                            <h5 class="precop">R$35,90</h5>
                             <ion-icon name="checkmark-circle"></ion-icon>
                         </div>
                     </div>
                     <div onclick="prato_selecionado(this)" class="item">
                         <div class="conteudo-do-item">
                             <img src="imagens-driveneats\coxa-de-frango-assada-eats.JPG">
-                            <h4>Coxa de frango</h4>
+                            <h4 class="prato">Coxa de frango</h4>
                             <p>batata cozida, arroz</p>
-                            <h5>R$28,90</h5>
+                            <h5 class="precop">R$28,90</h5>
                             <ion-icon name="checkmark-circle"></ion-icon>
                         </div>
                     </div>
                     <div onclick="prato_selecionado(this)" class="item">
                         <div class="conteudo-do-item">
                             <img src="imagens-driveneats\cuzcuz-eats.JPG">
-                            <h4>Cuzcuz paulista</h4>
+                            <h4 class="prato">Cuzcuz paulista</h4>
                             <p>delicioso cuzcuz caseiro</p>
-                            <h5>R$24,90</h5>
+                            <h5 class="precop">R$24,90</h5>
                             <ion-icon name="checkmark-circle"></ion-icon>
                         </div>
                     </div>
                     <div onclick="prato_selecionado(this)" class="item">
                         <div class="conteudo-do-item">
                             <img src="imagens-driveneats\feijoada-eats.JPG">
-                            <h4>Feijoada típica</h4>
+                            <h4 class="prato">Feijoada típica</h4>
                             <p>Feijoada maravilhosa</p>
-                            <h5>R$65,90</h5>
+                            <h5 class="precop">R$65,90</h5>
                             <ion-icon name="checkmark-circle"></ion-icon>
                         </div>
                     </div>
                     <div onclick="prato_selecionado(this)" class="item">
                         <div class="conteudo-do-item">
                             <img src="imagens-driveneats\liguiça-toscana-eats.JPG">
-                            <h4>Linguiça toscana</h4>
+                            <h4 class="prato">Linguiça toscana</h4>
                             <p>acompanha arroz, batata-frita e feijão</p>
-                            <h5>R$19,90</h5>
+                            <h5 class="precop">R$19,90</h5>
                             <ion-icon name="checkmark-circle"></ion-icon>
                         </div>
                     </div>
@@ -146,7 +146,7 @@
                     <div onclick="sobremesa_selecionada(this)" class="item">
                         <div class="conteudo-do-item">
                             <img src="imagens-driveneats\bolo-ninho-chocolate-eats.JPG">
-                            <h4>Bolo de ninho e chocolate</h4>
+                            <h4 class="sobremesa">Bolo de ninho e chocolate</h4>
                             <p>300g</p>
                             <h5>R$7,90</h5>
                             <div class="icone-selecionado escondido">
@@ -157,7 +157,7 @@
                     <div onclick="sobremesa_selecionada(this)" class="item">
                         <div class="conteudo-do-item">
                             <img src="imagens-driveneats\mini-quindim-eats.JPG">
-                            <h4>Mini quindim</h4>
+                            <h4 class="sobremesa">Mini quindim</h4>
                             <p>200g</p>
                             <h5>R$4,90</h5>
                             <div class="icone-selecionado escondido">
@@ -168,7 +168,7 @@
                     <div onclick="sobremesa_selecionada(this)" class="item">
                         <div class="conteudo-do-item">
                             <img src="imagens-driveneats\mousse-maracuja-eats.JPG">
-                            <h4>Mousse de maracujá</h4>
+                            <h4 class="sobremesa">Mousse de maracujá</h4>
                             <p>300g</p>
                             <h5>R$8,90</h5>
                             <div class="icone-selecionado escondido">
@@ -179,7 +179,7 @@
                     <div onclick="sobremesa_selecionada(this)" class="item">
                         <div class="conteudo-do-item">
                             <img src="imagens-driveneats\pudim-eats.JPG">
-                            <h4>Pudim</h4>
+                            <h4 class="sobremesa">Pudim</h4>
                             <p>200g</p>
                             <h5>R$6,90</h5>
                             <div class="icone-selecionado escondido">
@@ -190,7 +190,7 @@
                     <div onclick="sobremesa_selecionada(this)" class="item">
                         <div class="conteudo-do-item">
                             <img src="imagens-driveneats\suflair-eats.JPG">
-                            <h4>Suflair</h4>
+                            <h4 class="sobremesa">Suflair</h4>
                             <p>50g</p>
                             <h5>R$2,90</h5>
                             <div class="icone-selecionado escondido">
@@ -202,9 +202,9 @@
             </div>
         </div>
         <div class="fechamento-de-pedido">
-            <button onclick="acionarbutao()" class="div-botao">
+            <div onclick="acionar()" class="div-botao">
                 <p class="muda-texto">Selecione os 3 itens para fechar pedido</p>
-            </button>
+            </div>
         </div>
         <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
         <script src="driveneats.js"></script>

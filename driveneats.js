@@ -13,6 +13,7 @@ function bebida_selecionada(selecao) {
       selecionadob.classList.remove("seleciona");
     }
   selecao.classList.add("seleciona");
+  let bebida = document.querySelector()
   botao()
 }
 
@@ -34,5 +35,12 @@ function botao() {
     desligarbotao.classList.add("novo-botao")
     const elemento = document.querySelector(".muda-texto");
     elemento.innerHTML = "Fechar pedido";
+  }
+}
+
+function acionar() {
+  if (document.querySelector(".novo-botao") !== null) {
+    const nome = prompt("Qual o seu nome?");
+    const endereço = prompt("Qual o seu endereço?");
   }
 }
